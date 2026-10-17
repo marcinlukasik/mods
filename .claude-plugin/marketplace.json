@@ -1,0 +1,18 @@
+{
+  "name": "marcinlukasik-mods",
+  "owner": {
+    "name": "Marcin Lukasik",
+    "url": "https://github.com/marcinlukasik"
+  },
+  "metadata": {
+    "description": "Claude Code mods by Marcin Lukasik"
+  },
+  "allowCrossMarketplaceDependenciesOn": ["claude-statuspane"],
+  "plugins": [
+    {
+      "name": "session-extras",
+      "source": "./session-extras",
+      "description": "Remote Control row in the statuspane card and a caveman mode picker under it"
+    }
+  ]
+}

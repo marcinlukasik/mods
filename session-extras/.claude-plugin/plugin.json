@@ -1,0 +1,17 @@
+{
+  "name": "session-extras",
+  "version": "0.6.0",
+  "description": "Remote Control row in the statuspane card and a caveman mode picker under it",
+  "author": {
+    "name": "Marcin Lukasik",
+    "url": "https://github.com/marcinlukasik"
+  },
+  "homepage": "https://github.com/marcinlukasik/mods/tree/main/session-extras",
+  "repository": "https://github.com/marcinlukasik/mods",
+  "license": "MIT",
+  "keywords": ["statuspane", "remote-control", "caveman", "mod", "ui"],
+  "dependencies": [
+    "statuspane@claude-statuspane"
+  ],
+  "types": "./types/index.d.ts"
+}

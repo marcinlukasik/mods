@@ -10,6 +10,11 @@
   "allowCrossMarketplaceDependenciesOn": ["claude-statuspane"],
   "plugins": [
     {
+      "name": "prod-guard",
+      "source": "./prod-guard",
+      "description": "Holds risky commands (prod deploys, force pushes, destructive git/db ops) for confirmation with a context report"
+    },
+    {
       "name": "session-extras",
       "source": "./session-extras",
       "description": "Remote Control row in the statuspane card and a caveman mode picker under it"

@@ -1,0 +1,14 @@
+{
+  "name": "prod-guard",
+  "version": "0.2.0",
+  "description": "Holds risky commands (prod deploys, force pushes, destructive git/db ops) for confirmation with a context report.",
+  "author": {
+    "name": "Marcin Lukasik",
+    "url": "https://github.com/marcinlukasik"
+  },
+  "homepage": "https://github.com/marcinlukasik/mods/tree/main/prod-guard",
+  "repository": "https://github.com/marcinlukasik/mods",
+  "license": "MIT",
+  "keywords": ["safety", "guard", "deploy", "git", "vercel", "mod"],
+  "types": "./types/index.d.ts"
+}
